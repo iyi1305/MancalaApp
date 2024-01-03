@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class MancalaGame 
 {
 	private MancalaModel model;
-	private GameBoard board;
+	private BoardView board;
 	
 	public static void main(String [] args)
 	{
@@ -34,13 +34,12 @@ public class MancalaGame
 		switch (opt)
 		{
 		case 0:
-			board = new GameBoard(this, model, new RectangleFormat());
+			board = new BoardView(this, model, new RectangleFormat());
 			break;
 		case 1:
-			board = new GameBoard(this, model, new EllipseFormat());
+			board = new BoardView(this, model, new EllipseFormat());
 			break;
 		default:
-			board = new GameBoard(this, model, new RectangleFormat());
 		}
 	}
 	
