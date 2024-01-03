@@ -19,20 +19,24 @@ Players engage in the game by selecting pits on the GUI, which then triggers the
    ```
    javac src/main/java/*.java -d bin
    ```
-
-2. To run the GUI version of the game, execute the following command:
+2. Create the jar file:
    ```
-   java -cp bin MancalaGame 
+   jar cvfm MancalaApp.jar Manifest.txt -C bin/ .
+   ``` 
+
+3. To run the GUI version of the game, execute the following command:
    ```
-3. The program will launch the GUI interface for the Mancala game.
+   java -jar MancalaApp.jar 
+   ```
+4. The program will launch the GUI interface for the Mancala game.
 
-4. The GUI displays the choice between display the stones as en allipse or rectangular.
+5. The GUI displays the choice between display the stones as en allipse or rectangular.
 
-5. Each game button will activate a board consisting of different pits and their numbers.
+6. Each game button will activate a board consisting of different pits and their numbers.
 
-6. Players can take turns by clicking on the pits to distribute stones.
+7. Players can take turns by clicking on the pits to distribute stones.
 
-7. The GUI provides visual feedback on the game state, scores, and declares the winner at the end of the specified rounds.
+8. The GUI provides visual feedback on the game state, scores, and declares the winner at the end of the specified rounds.
 
 ## Author Information
 
