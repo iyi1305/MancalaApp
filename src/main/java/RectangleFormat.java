@@ -5,7 +5,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 
 //Concrete class for the Strategy pattern
-public class RectangleFormat implements BoardFormatter
+public class RectangleFormat implements StyleFormatter
 {
    /**
     * Get this style's mancala shape.

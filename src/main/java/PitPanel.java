@@ -14,7 +14,7 @@ public class PitPanel extends JPanel implements ChangeListener, MouseListener
    private char pitSide;
    private int pitNumber;
    private MancalaModel mancalaModel;
-   private BoardFormatter format;
+   private StyleFormatter format;
   
    /**
     * Constructor.
@@ -36,7 +36,7 @@ public class PitPanel extends JPanel implements ChangeListener, MouseListener
     * Set panel format.
     * @param format format to be set to
     */
-   public void setFormat(BoardFormatter format)
+   public void setFormat(StyleFormatter format)
    {
       this.format = format;
    }

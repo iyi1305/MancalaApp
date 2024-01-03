@@ -3,7 +3,7 @@
 import java.awt.Color;
 import java.awt.Shape;
 
-public interface BoardFormatter
+public interface StyleFormatter
 {
    /**
     * Get this style's outline color. 

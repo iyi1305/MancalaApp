@@ -15,7 +15,7 @@ public class MancalaPanel extends JPanel implements ChangeListener {
     private MancalaModel mancalaModel;  // The game model this panel is associated with
     private char playerMancala;         // Identifier for the player ('a' or 'b')
     private int stoneAmount;            // Number of stones in the player's Mancala
-    private BoardFormatter format;      // Formatter for styling the Mancala display
+    private StyleFormatter format;      // Formatter for styling the Mancala display
 
     /**
      * Constructs a MancalaPanel.
@@ -32,9 +32,9 @@ public class MancalaPanel extends JPanel implements ChangeListener {
     /**
      * Sets the display format for this panel.
      * 
-     * @param format The BoardFormatter to apply to this panel
+     * @param format The StyleFormatter to apply to this panel
      */
-    public void setFormat(BoardFormatter format) {
+    public void setFormat(StyleFormatter format) {
         this.format = format;
     }
 

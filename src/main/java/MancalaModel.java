@@ -22,7 +22,7 @@ public class MancalaModel
     * count.
     * @param stoneAmount amount of stones to put in each pit
     */
-   public MancalaModel(int stoneAmount)
+   public MancalaFormat(int stoneAmount)
    {
 	      hand = 0;
 	      currentPlayer = 'a';

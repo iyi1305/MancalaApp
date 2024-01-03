@@ -27,7 +27,7 @@ public class GameBoard extends JFrame implements ChangeListener
     * @param format the format to use for this board
     */
    public GameBoard(MancalaGame game, MancalaModel mancalaModel, 
-		   BoardFormatter format)
+		   StyleFormatter format)
    {
 	   this.game = game;
 	   this.mancalaModel = mancalaModel;
