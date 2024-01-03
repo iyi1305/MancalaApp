@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-
 public class MancalaModel
 {
    private char currentPlayer;   

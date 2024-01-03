@@ -1,10 +1,11 @@
+
 import java.awt.Color;
 import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 
 //Concrete class for the Strategy pattern
-public class RectangleFormat implements BoardView
+public class RectangleFormat implements BoardFormatter
 {
    /**
     * Get this style's mancala shape.
