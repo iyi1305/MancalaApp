@@ -7,11 +7,11 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 public class BoardView extends JFrame implements ChangeListener {
-   private Game gameInstance;
-   private GameData gameData;
+   private MancalaGame gameInstance;
+   private MancalaModel gameData;
    private boolean checkWinnerFlag = false;
 
-   public BoardView(Game game, GameData gameData, StyleFormatter formatter) {
+   public BoardView(MancalaGame game, MancalaModel gameData, StyleFormatter formatter) {
       this.gameInstance = game;
       this.gameData = gameData;
       gameData.addView(this);
